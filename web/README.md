@@ -39,7 +39,7 @@ cd ~/www/synergy/web
 
 composer update
 
-3. Edit file web/.env for add parameters of MySQL-connection. For example:
+3. Save  file web/.env.example as web/.env and edit parameters of MySQL-connection in web/.env. For example:
 
 <pre>DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -58,7 +58,15 @@ php artisan migrate
 
 php artisan db:seed
 
-7. Enjoy!
+6. Run built-in Web-server:
+
+php artisan serve
+
+7. Go to http://127.0.0.1:8000
+
+May be you see proposal to generate Application Key. Click this button
+
+8. Enjoy
 
 
 
