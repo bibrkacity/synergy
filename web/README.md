@@ -29,8 +29,9 @@ You need to have installed <a href="https://getcomposer.org/download/">composer<
 
 1. Clone application from repository:
 
-2. Set active directory as folder web of application's folder - in terminal. For example:
+https://github.com/bibrkacity/synergy.git
 
+2. Set active directory as folder web of application's folder - in terminal. For example:
 
 cd ~/www/synergy/web
 
@@ -38,10 +39,9 @@ cd ~/www/synergy/web
 
 composer update
 
-3. Edit file web/.env for add parameters of MySQL. For example:
+3. Edit file web/.env for add parameters of MySQL-connection. For example:
 
-<pre>
-DB_CONNECTION=mysql
+<pre>DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=synergy
